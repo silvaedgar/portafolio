@@ -53,6 +53,10 @@
         p {
             text-align: justify;
         }
+
+        .video a p:hover{
+            border-bottom-style:solid;
+        }
     </style>
 </head>
 
@@ -500,13 +504,17 @@
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio section-bg">
             <div class="container">
-                <div class="section-title">
-                    <div class="col-lg-6">
-
-                        <h2>Portfolio</h2>
-                        <p>Proyecto Quiniela Mundial 2022. Proyecto desarrollado en Laravel y MySQL. </p>
-                        <video src="videos/quiniela.mp4" controls width="500"></video>
+                <div class="section-title row">
+                <h2>Portfolio</h2>
+                    <div class="col-lg-6 video">
+                        <a href="https://github.com/silvaedgar/quiniela" target="_blank" title="Ver Código" ><p>Proyecto Quiniela Mundial 2022. </p></a>
+                        <video src="videos/quiniela.mp4" controls width="100%" height="250"></video>
                     </div>
+                    <div class="col-lg-6 video">
+                        <a href="https://github.com/silvaedgar/portafolio-cruds" target="_blank" title="Ver Código"> <p>Proyecto de Cruds con varias Perspectivas</p></a>
+                        <video src="videos/portafolio-crud.mp4" controls width="100%" height="250"></video>
+                    </div>
+
                 </div>
 
                 <!-- <div class="row" data-aos="fade-up">
